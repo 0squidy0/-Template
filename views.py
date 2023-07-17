@@ -15,3 +15,5 @@ def login(request):
     return render(request, 'login.html')
 def profile(request):
     return render(request, 'profile.html')
+def advertisement(request):
+    return render(request, 'advertisement.html')
